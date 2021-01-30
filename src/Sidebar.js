@@ -4,12 +4,18 @@ import "./Sidebar.css";
 import SearchIcon from '@material-ui/icons/Search';
 import RateReviewIcon from '@material-ui/icons/RateReview';
 import SidebarChat from './SidebarChat';
+import { selectUser } from './features/userSlice';
+import { useSelector } from 'react-redux';
+import { auth } from './firebase';
 
 const Sidebar = () => {
+
+    const user = useSelector(selectUser)
+
     return (
         <div className="sidebar">
             <div className="sidebar-header">
-                <Avatar className="sidebar-avatar" />
+                <Avatar onClick={() => auth.signOut()} src={user.photo} className="sidebar-avatar" />
                 <div className="sidebar-input">
                     <SearchIcon />
                     <input type="text" placeholder="search"/>
