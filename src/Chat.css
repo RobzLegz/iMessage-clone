@@ -22,3 +22,27 @@
 }
 .chat-header > strong {
 }
+.chatInput {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  border-top: 1px solid lightgray;
+  background-color: #f5f5f5;
+  justify-content: center;
+}
+.chatInput > form {
+  flex: 1;
+}
+.chatInput > form > input {
+  width: 98%;
+  outline: none;
+  border: 1px solid lightgray;
+  border-radius: 999px;
+  padding: 5px;
+}
+.chatInput > form > button {
+  display: none;
+}
+.chat-messages {
+  flex: 1;
+}
