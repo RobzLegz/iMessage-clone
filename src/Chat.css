@@ -1,3 +1,24 @@
 .chat {
   flex: 0.65;
+  position: relative;
+  height: 100vh;
+  flex-direction: column;
+  display: flex;
+  background-color: #fff;
+}
+.chat-header {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid lightgray;
+  background-color: #f5f5f5;
+}
+.chat-header > h4 {
+  font-weight: 500;
+  color: gray;
+}
+.roomName {
+  color: #000;
+}
+.chat-header > strong {
 }
