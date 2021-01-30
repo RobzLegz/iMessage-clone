@@ -1,9 +1,9 @@
 # Screenshots:
 <img src="src/screenshots/1sdfkjndsjifhjds.png">
-<img src="src/screenshots/1sdfkjndsjifhjds.png">
-<img src="src/screenshots/1sdfkjndsjifhjds.png">
-<img src="src/screenshots/1sdfkjndsjifhjds.png">
-<img src="src/screenshots/1sdfkjndsjifhjds.png">
+<img src="src/screenshots/2nddsfdjskhfids.png">
+<img src="src/screenshots/3dcgatssu.png">
+<img src="src/screenshots/4thsndnfjdsnfd.png">
+<img src="src/screenshots/applast.png">
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
